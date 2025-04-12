@@ -81,15 +81,15 @@ The project adopts a modular and maintainable design. Below is a high-level over
 
 ### UML
 ```
-+-------------------+
-|    MyProgram      |
-+-------------------+
-| +run()            |
-| +initGame()       |
-| +handleInput()    |
-+-------------------+
-     |      |       |       |
-     v      v       v       v
+    +--------------------------------+
+    |             MyProgram          |
+    +--------------------------------+
+    |          +run()                |
+    |          +initGame()           |
+    |          +handleInput()        |
+    +--------------------------------+
+     |         |         |          |
+     v         v         v          v
 +--------+ +--------+ +--------+ +--------+
 | Board  | | Choice | | Window | | Score  |
 +--------+ +--------+ +--------+ +--------+
@@ -105,7 +105,7 @@ The project adopts a modular and maintainable design. Below is a high-level over
 **Ismael L. Sai**
 Software Engineer | Puzzle Game Enthusiast
 
->This project was fully developed by Ismaël Labidi, including game logic, system design, and all code contributions.
+>This project was fully developed by Ismael Sai, including game logic, system design, and all code contributions.
 
 ### License
 
